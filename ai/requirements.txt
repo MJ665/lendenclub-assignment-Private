@@ -1,0 +1,5 @@
+langchain==0.3.0
+langgraph==0.2.20
+langchain-google-genai==2.0.0
+pydantic==2.9.0
+# Remove trivy==0.1.0
