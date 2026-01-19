@@ -1,28 +1,17 @@
-Excellent question — this is **exactly what evaluators look for** 👍
-Below is a **ready-to-submit, well-structured project documentation + AI Usage Log** that:
-
-*  **Does NOT copy-paste chat questions**
-*  Shows **learning attitude**
-*  Explains **why & how AI was used**
-*  Matches **DevSecOps assignment objectives**
-*  Looks **authentic, professional, and reflective**
-
-You can paste this directly into your **README.md** (with minor edits if needed).
-
----
-
 #  InfraGuard – AI-Driven DevSecOps Security Pipeline
 
 ---
 
-## 🔹 Project Overview
+##  Project Overview
 
 **InfraGuard** is an AI-powered DevSecOps automation project designed to ensure that **cloud infrastructure is secure by default before deployment**.
 
 The project integrates **Jenkins CI/CD**, **Terraform Infrastructure-as-Code**, **containerized web applications**, **security scanning**, and **Generative AI-based remediation** to detect and fix infrastructure vulnerabilities automatically.
 
 This assignment demonstrates how **AI can be used as a security assistant** in modern DevOps pipelines.
+Video 
 
+[https://drive.google.com/drive/folders/1a2kogicjEwStuEygZH3NAwee7hterOY2?usp=sharing](https://drive.google.com/drive/folders/1a2kogicjEwStuEygZH3NAwee7hterOY2?usp=sharing)
 ---
 
 ##  Objective
@@ -160,40 +149,40 @@ During this project, AI was used as:
 
 ## 🔍 Sample AI Learning Prompts (Paraphrased & Reflective)
 
-> **Q1:**
-> How can infrastructure-as-code introduce security risks even before deployment?
+**Q1:**
+How can infrastructure-as-code introduce security risks even before deployment?
 
 **Learning Outcome:**
 Understood that misconfigured Terraform files can expose cloud resources publicly without any runtime monitoring.
 
 ---
 
-> **Q2:**
-> What does opening SSH access to the entire internet actually mean in real-world cloud security?
+**Q2:**
+What does opening SSH access to the entire internet actually mean in real-world cloud security?
 
 **Learning Outcome:**
 Learned that unrestricted SSH access enables brute-force attacks and violates zero-trust networking principles.
 
 ---
 
-> **Q3:**
-> How should a CI/CD pipeline behave when security vulnerabilities are detected?
+**Q3:**
+How should a CI/CD pipeline behave when security vulnerabilities are detected?
 
 **Learning Outcome:**
 Realized that pipelines should not just fail silently, but guide remediation and enforce security gates.
 
 ---
 
-> **Q4:**
-> How can AI understand a Trivy security report and map it back to Terraform code?
+**Q4:**
+How can AI understand a Trivy security report and map it back to Terraform code?
 
 **Learning Outcome:**
 Learned how AI can correlate scanner output with IaC structure and suggest best-practice fixes automatically.
 
 ---
 
-> **Q5:**
-> What are secure alternatives to public SSH access in AWS?
+**Q5:**
+What are secure alternatives to public SSH access in AWS?
 
 **Learning Outcome:**
 Discovered approaches such as:
@@ -204,8 +193,8 @@ Discovered approaches such as:
 
 ---
 
-> **Q6:**
-> Why is re-scanning after remediation critical?
+**Q6:**
+Why is re-scanning after remediation critical?
 
 **Learning Outcome:**
 Confirmed that AI-generated fixes must always be verified to avoid false confidence in security.
@@ -252,10 +241,10 @@ A 5–10 minute demo video is included showing:
 
 InfraGuard demonstrates a **practical DevSecOps workflow** where:
 
-> Security is **detected early**,
-> Remediated **intelligently using AI**,
-> Verified **automatically**,
-> And deployed **safely**.
+Security is **detected early**,
+Remediated **intelligently using AI**,
+Verified **automatically**,
+And deployed **safely**.
 
 ---
 
