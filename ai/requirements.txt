@@ -1,5 +1,15 @@
 langchain==0.3.0
 langgraph==0.2.20
+langchain-core==0.3.63
 langchain-google-genai==2.0.0
+google-generativeai==0.7.2
+google-auth==2.47.0
+google-api-core==2.29.0
 pydantic==2.9.0
-# Remove trivy==0.1.0
+protobuf==4.25.8
+requests==2.32.5
+httpx==0.28.1
+urllib3==2.6.3
+PyYAML==6.0.3
+tenacity==8.5.0
+packaging==24.2

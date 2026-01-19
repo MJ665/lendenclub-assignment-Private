@@ -10,7 +10,6 @@ terraform {
 provider "aws" {
   region = "ap-south-1"
 
-  # Best Practice: Use default tags for cost allocation
   default_tags {
     tags = {
       Project     = var.project_name

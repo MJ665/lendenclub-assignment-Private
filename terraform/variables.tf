@@ -25,7 +25,7 @@ variable "instance_type" {
 
 variable "ami_id" {
   description = "AMI ID for the EC2 instance (Amazon Linux 2)"
-  default     = "ami-0d682f26195e9ec0f" 
+  default     = "ami-0d682f26195e9ec0f"
 }
 
 variable "db_password" {
@@ -33,4 +33,10 @@ variable "db_password" {
   type        = string
   sensitive   = true
   default     = "ChangeMeInProduction!"
+}
+
+variable "admin_ip" {
+  description = "Admin IP for SSH access"
+  type        = string
+  default     = "0.0.0.0/0"
 }
