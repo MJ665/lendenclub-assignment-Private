@@ -100,8 +100,7 @@ resource "aws_security_group" "web_sg" {
     from_port       = 3306
     to_port         = 3306
     protocol        = "tcp"
-    self = true
-
+    security_groups = [aws_security_group.web_sg.id]
   }
 
   egress {
